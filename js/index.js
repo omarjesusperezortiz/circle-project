@@ -71,7 +71,7 @@ const post3 = async (num) => {
           </div>
           <div class="container">
               <div class="project">
-                <div class="img-back" style="background-image: url(./media/projects-section/${num}.jpg)"></div>
+                <div class="img-back"><img src="./media/projects-section/${num}.jpg" alt="" srcset=""></div>
                   <img src="./media/projects-section/${num}.jpg" alt="" srcset="">
                   <p class="body-regular">
                   ${newComment}
