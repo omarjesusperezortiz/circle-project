@@ -19,16 +19,18 @@
 https://www.figma.com/proto/slz6FuItVPZfJ412U2SOvw/Circle-Project?node-id=29%3A110&starting-point-node-id=29%3A110&scaling=scale-down-width
 
 <h2 align="center">
-<img width="400px" src="https://github.com/omarjesusperezortiz/calculator-quiz-ironhack/blob/main/media/Captura%20de%20pantalla%202022-11-11%20a%20las%202.01.53.png" alt="taskgif">
+<img width="500px" src="https://github.com/omarjesusperezortiz/circle-project/blob/main/media/figmapreview.png" alt="taskgif">
 </h2>
 
 <h3>Web Development</h3>
 
 <h2 align="center">
-<img width="400px" src="https://github.com/omarjesusperezortiz/calculator-quiz-ironhack/blob/main/media/error.png" alt="taskgif">
+<img width="400px" src="https://github.com/omarjesusperezortiz/circle-project/blob/main/media/webpreview1.gif" alt="taskgif">
 </h2>
 
-
+<h2 align="center">
+<img width="400px" src="https://github.com/omarjesusperezortiz/circle-project/blob/main/media/webpreview2.gif" alt="taskgif">
+</h2>
 
 
 
