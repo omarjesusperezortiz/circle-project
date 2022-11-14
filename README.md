@@ -24,6 +24,8 @@ https://www.figma.com/proto/slz6FuItVPZfJ412U2SOvw/Circle-Project?node-id=29%3A1
 
 <h3>Web Development</h3>
 
+https://omarjesusperezortiz.github.io/circle-project/
+
 <h2 align="center">
 <img width="700px" src="https://github.com/omarjesusperezortiz/circle-project/blob/main/media/webpreview1.gif" alt="taskgif">
 </h2>
