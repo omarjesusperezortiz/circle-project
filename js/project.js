@@ -13,7 +13,9 @@ const postProject = async (num) => {
     </div>
     <div class="container">
         <div class="project">
+        <div class="img-back">
             <img src="./media/projects-section/${num}.jpg" alt="" srcset="">
+            </div>
             <p class="body-regular">
             ${newComment}
             </p>
