@@ -16,6 +16,8 @@
 
 <h3> Figma Design </h3>
 
+https://www.figma.com/proto/slz6FuItVPZfJ412U2SOvw/Circle-Project?node-id=29%3A110&starting-point-node-id=29%3A110&scaling=scale-down-width
+
 <h2 align="center">
 <img width="400px" src="https://github.com/omarjesusperezortiz/calculator-quiz-ironhack/blob/main/media/Captura%20de%20pantalla%202022-11-11%20a%20las%202.01.53.png" alt="taskgif">
 </h2>
