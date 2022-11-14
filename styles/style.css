@@ -674,7 +674,7 @@ header .container .frame-contact a:hover {
   bottom: auto;
   width: 30px;
   height: 30px;
-  background-image: url(/media/newsletter/icon/mail.svg);
+  background-image: url(./media/newsletter/icon/mail.svg);
   background-position: 50% 50%;
   background-size: auto;
   background-repeat: no-repeat;
