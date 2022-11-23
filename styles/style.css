@@ -924,6 +924,7 @@ header .container .frame-contact a:hover {
 @media only screen and (max-width: 1200px) {
   header {
     max-width: 800px;
+    margin: auto;
   }
   .hero .container {
     display: flex;
@@ -941,6 +942,9 @@ header .container .frame-contact a:hover {
     display: none;
   }
   .hero .card-2 {
+    display: none;
+  }
+  .img-back {
     display: none;
   }
   .project-section .container .projects {
@@ -989,6 +993,7 @@ header .container .frame-contact a:hover {
     opacity: 1;
     position: absolute;
     width: 100%;
+    z-index: 1000000;
   }
   header .nav-responsive li {
     list-style: none;
@@ -1001,7 +1006,14 @@ header .container .frame-contact a:hover {
     color: #1e96ff !important;
   }
   header .container {
-    padding: 0 30px;
+    padding: 30px 30px;
+  }
+  header .container .logo-nav a img {
+    height: 30px;
+    width: auto;
+  }
+  header .container .button {
+    display: none;
   }
   header .container .nav-menu li {
     display: none;
@@ -1009,6 +1021,9 @@ header .container .frame-contact a:hover {
   header .container .nav-menu a.icon {
     float: right;
     display: block;
+  }
+  header .container .nav-menu a.icon i:before {
+    font-size: 30px;
   }
   header .container .nav-menu-responsive {
     position: relative;
@@ -1043,6 +1058,9 @@ header .container .frame-contact a:hover {
   }
   .nav-menu.responsive .icon .hero .container .content p.body-regular {
     max-width: 550px;
+  }
+  .hero .container .content h1 {
+    font-size: 40px;
   }
   .client-section {
     display: block;

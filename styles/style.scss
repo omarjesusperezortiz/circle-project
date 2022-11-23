@@ -1050,7 +1050,7 @@ color: #6B708D;
  {
 header{
     max-width:800px;
-
+    margin: auto;
 }
 
 .hero{
@@ -1078,6 +1078,7 @@ header{
 
 }
 
+.img-back{display:none}
 .project-section{
     .container{
     
@@ -1145,6 +1146,7 @@ header{
 //MENU HAMBURGER
 
 header{
+
     max-width:auto !important;
     .nav-responsive{
         display:block;
@@ -1152,6 +1154,7 @@ header{
         opacity: 1;
         position:absolute;
         width:100%;
+        z-index: 1000000;
        
         li{
             list-style: none;
@@ -1163,7 +1166,9 @@ header{
             a{
                 color:#1e96ff!important;
             }
-        }
+      
+          }
+
 
 
 
@@ -1171,13 +1176,30 @@ header{
 
     
     .container{
-        padding: 0 30px;
+        .logo-nav{
+            a{
+                img{
+                    height:30px;
+                    width:auto;
+                }
+            }
+        }
+      
+        padding: 30px 30px;
+        .button{
+            display:none;
+        }
         .nav-menu{
             li {
                 display: none;}
              a.icon{
                     float: right;
                     display: block;
+
+                    i:before{
+                        font-size: 30px;
+                    }
+                
                 }
 
 
@@ -1216,10 +1238,11 @@ header{
     .hero{
         max-width: 600px;
         margin: auto;
+      
         .container{
-
+          
             .content{
-
+               
                 p.body-regular{
                     max-width:550px;
                 }
@@ -1228,6 +1251,11 @@ header{
     }
 
  }
+
+ .hero .container .content h1 {
+    font-size:40px;
+
+}
 
 
 .client-section{

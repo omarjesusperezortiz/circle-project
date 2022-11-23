@@ -10,7 +10,7 @@ function myFunction() {
       const hamIcon=document.querySelector("#hamburger")
       hamNav.style.background = "#072ac8"
       hamNav.style.opacity = "1";
-      body.style.background="rgb(0,0,0)";
+   
       hamIcon.innerHTML=`
       <i class="fa fa-close"></i>
       `
@@ -20,6 +20,7 @@ function myFunction() {
       <li><a href="./projects.html">Projects</a></li>
       <li><a href="#">Services</a></li>
         </div>
+        <li><a href="./contact.html">Contact Us</a></li>
       `
 
     } else {
@@ -29,7 +30,7 @@ function myFunction() {
       const hamIcon=document.querySelector("#hamburger")
         hamNav.style.background = ""
         hamNav.style.opacity = "0";
-        body.style.background="rgb(255,255,255)"
+
         hamIcon.innerHTML=`
         <i class="fa fa-bars"></i>
         `
