@@ -20,23 +20,33 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="logo-nav">
-          <a href="./index.html"
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <a class="nav-logo" href="./index.html"
             ><img src="./media/logos/circle.svg" alt="" srcset=""
           /></a>
+          <a class="navbar-ham" href="javascript:void(0);" id="hamburger"
+            ><i class="fa fa-bars"></i
+          ></a>
         </div>
-        <nav class="nav-menu" id="myTopNav">
-          <a href="javascript:void(0);" class="icon" id="hamburger">
-            <i class="fa fa-bars"></i>
-          </a>
-          <li><a class="head-links" href="./index.html">Home</a></li>
-          <li><a class="head-links" href="./projects.html">Projects</a></li>
-          <li><a class="head-links" href="#">Services</a></li>
-        </nav>
-        <a class="button" href="./contact.html">Contact Us</a>
-      </div>
-      <div class="nav-responsive" id="ham-nav"></div>
+        <div class="navbar-menu" id="menuBar">
+          <div class="navbar-item">
+            <a class="head-links" href="./index.html">Home</a>
+          </div>
+          <div class="navbar-item">
+            <a class="head-links" href="./projects.html">Projects</a>
+          </div>
+          <div class="navbar-item">
+            <a class="head-links" href="#">Services</a>
+          </div>
+          <div class="navbar-item contactus">
+            <a href="./contact.html">Contact us</a>
+          </div>
+        </div>
+        <div class="navbar-end">
+          <a class="contact-botton" href="./contact.html">Contact Us</a>
+        </div>
+      </nav>
     </header>
     <main>
       <div class="section">

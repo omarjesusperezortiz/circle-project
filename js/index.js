@@ -102,18 +102,6 @@ post2(rndInt2)
 post3(rndInt3)
 postProject(random)
 
-// console.log(newTitle)
-// const title = document.querySelector('#project-1-title');
-// const comment= document.querySelector('#project-1-title');
-// let html = ''
-// for (let i = 0; i < pokemons.length; i++) {
-//     const element = pokemons[i];
-//     html += 
-//     `
-//     <h3 id="project-1-title">${newTitle}</h3>
-//     <p class="headline-regular">${newComment}</p>`
-// }
-
 
 
 
